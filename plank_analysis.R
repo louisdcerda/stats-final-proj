@@ -42,6 +42,7 @@ barplot(unlist(hash),
 # analyze only those in there 20s
 
 select_few <- (plank_data[floor(plank_data$Age /5 ) == 4, 'Time'])$Time
+  # find some trend of those in their 20s
 
 # age groups graph - mean by 5's
 
